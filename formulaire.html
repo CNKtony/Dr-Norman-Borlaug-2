@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <form id="contactFrom" method="get" action="/christopher.html">
+
+
+<div><label for="name">First Name :</label></div>
+<div><input type="text" id="name"></div>
+<label for="a">Last Name :</label></div>
+<div><input type="text" id="a"></div>
+<label for="b">Email :</label></div>
+<div><input type="email" id="b"></div>
+<label for="c">Password :</label></div>
+<div><input type="password" id="c"></div>
+
+
+   <div><label for="o">Gender</label></div>
+   <div> 
+    <input type="radio" name="type" value="Male" id="o"> <label for="steak">Male</label><br>
+    <input type="radio" name="type" value="Female" id="o"> <label for="epinards">Female</label><br>
+    <input type="radio" name="type" value="Other" id="o"> <label for="huitres">Other</label>
+</div>
+
+<div><label for="e">Date of Birth</label></div>
+<div><input type="date" id="e" name="calendrier" value="jj-mm-aaaa" min="jj-mm-aaaa" max="jj-mm-aaaa"></div>
+
+<div><label for="site-search">Website :</label></div>
+<div><input type="url" id="site-search" name="q"></div>
+
+<div><label for="pays">Country :</label></div>
+<div><select name="pays" id="pays">
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="canada">Canada</option>
+</select></div>
+
+
+    <div>
+        <label for="message">Messages :</label></div>
+        <div><textarea name="message" id="message"></textarea>
+    </div>
+
+   <div> <input type="submit" value="submit"></div>
+</form>
+
+
+</body>
+</html>
